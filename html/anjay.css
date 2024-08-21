@@ -1,0 +1,75 @@
+p {
+    color: rgb(191, 201, 8);
+    font-style: oblique;
+}
+body {
+background-color: rgb(49, 49, 41);
+}
+th {
+    color: rgb(211, 211, 10);
+}
+table {
+    background-color: rgba(203, 210, 217, 0.159);
+}
+span {
+    color: rgb(240, 233, 233);
+}
+h1 {
+    color: rgb(220, 26, 26);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+    filter: blur(50%);
+}
+h2 {
+    color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3,h4,h5 {
+    color: antiquewhite;
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    border-radius: 500px;
+    height: 300px;
+}
+a {
+    color: rgb(169, 193, 50);
+}
+.ftc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnpar {
+    display: flex;
+    justify-content: space-between;
+}
+.tbl {
+    width: 300px;
+    height: 300px;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
